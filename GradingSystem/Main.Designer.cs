@@ -111,6 +111,7 @@
             // 
             // pData
             // 
+            pData.BackColor = Color.FromArgb(224, 224, 224);
             pData.Dock = DockStyle.Fill;
             pData.Location = new Point(281, 0);
             pData.Margin = new Padding(3, 4, 3, 4);
