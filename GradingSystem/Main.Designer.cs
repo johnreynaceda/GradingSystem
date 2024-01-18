@@ -107,6 +107,7 @@
             // 
             // pData
             // 
+            pData.BackColor = Color.FromArgb(224, 224, 224);
             pData.Dock = DockStyle.Fill;
             pData.Location = new Point(246, 0);
             pData.Name = "pData";
