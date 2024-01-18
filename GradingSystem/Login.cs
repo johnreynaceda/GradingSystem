@@ -38,12 +38,12 @@ namespace GradingSystem
                     }
                     else
                     {
-                        MessageBox.Show("Invalid username or password");
+                        MessageBox.Show("Invalid username or passwords");
                     }
                 }
             }
         }
-
+      
         private void OpenMainFormBasedOnRole(string role)
         {
            
