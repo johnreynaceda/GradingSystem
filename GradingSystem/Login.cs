@@ -38,7 +38,7 @@ namespace GradingSystem
                     }
                     else
                     {
-                        MessageBox.Show("Invalid username or passwords");
+                        MessageBox.Show("Invalid username or password");
                     }
                 }
             }
