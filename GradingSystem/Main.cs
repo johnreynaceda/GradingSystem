@@ -29,7 +29,26 @@ namespace GradingSystem
 
         private void dashboardButton_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Do you really want to logout?");
+
+            if (result == DialogResult.OK) 
+            {
+                Login frmLogin = new Login();
+                this.Close();
+              
+                frmLogin.ShowDialog();
+            }
+
         }
     }
 }

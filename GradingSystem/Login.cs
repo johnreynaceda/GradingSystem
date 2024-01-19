@@ -53,19 +53,28 @@ namespace GradingSystem
                     MessageBox.Show("Adiser");
                     break;
                 case "Subject Teacher":
-                    MessageBox.Show("Subject Teacher");
+                    TeacherMain frmTeacher = new TeacherMain();
+                    frmTeacher.ShowDialog();
+                    this.Hide();
                     break;
                 case "Principal":
-                    MessageBox.Show("Principal");
+                    PrincipalMain frmPrincipal = new PrincipalMain();
+                    frmPrincipal.ShowDialog();
+                    this.Hide();
                     break;
                 case "Secretary":
-                    MessageBox.Show("Secretary");
+                   SecretaryMain frmSecretary = new SecretaryMain();
+                    frmSecretary.ShowDialog();
+                    this.Hide();
                     break;
                 case "Academic Chair":
                     MessageBox.Show("Academic Chair");
                     break;
                 case "Admin":
-                    MessageBox.Show("Admin");
+                   Main frmMain = new Main();
+                    frmMain.Show();
+                    this.Hide();
+                    
                     break;
                 default:
                     MessageBox.Show("Unknown role");
